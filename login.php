@@ -1,6 +1,6 @@
 <?php
 
-$conn = msqli_connect("localhost", "root", " ", "itpc2");
+$conn = mysqli_connect("localhost", "root", " ", "itpc2");
 
 if (!$conn){
     die("Wrong");
